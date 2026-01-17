@@ -1,0 +1,28 @@
+#skills {
+  padding: 40px 10px;
+  background-color: #f9f9ff;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.skill-item {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  color: #5e5c7f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: #FF4C60;
+    color: #fff;
+    transform: translateY(-5px);
+  }
+}
