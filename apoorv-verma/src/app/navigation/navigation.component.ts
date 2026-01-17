@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faAddressCard, faBriefcase, faComments, faContactCard, faCreditCard, faGraduationCap, faHome, faImage, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faBriefcase, faComments, faContactCard, faCreditCard, faGraduationCap, faHome, faImage, faLayerGroup, faTools } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -9,12 +9,9 @@ export class NavigationComponent implements OnInit {
 
   homeIcon = faHome
   aboutIcon = faAddressCard
-  serviceIcon = faBriefcase
-  experienceIcon = faGraduationCap
+  skillsIcon = faTools
+  experienceIcon = faBriefcase
   workIcon = faLayerGroup
-  pricingIcon = faCreditCard
-  testimonialIcon = faComments
-  photographyIcon = faImage
   contactIcon = faContactCard
 
   constructor() { }

@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.0",
-    "@angular/cdk": "^13.0.0",
+    "@angular/cdk": "^14.1.0",
     "@angular/common": "^14.1.0",
     "@angular/compiler": "^14.1.0",
     "@angular/core": "^14.1.0",
@@ -38,6 +38,7 @@
     "@angular/cli": "~14.1.0",
     "@angular/compiler-cli": "^14.1.0",
     "@types/jasmine": "~4.0.0",
+    "@types/node": "~18.11.18",
     "@types/parallax-js": "^3.1.0",
     "jasmine-core": "~4.2.0",
     "karma": "~6.4.0",
